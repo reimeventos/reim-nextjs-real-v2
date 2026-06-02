@@ -10,7 +10,7 @@ export default function FornecedorPage() {
         <p className="mt-1 text-sm text-gray-500">Porto Seguro • ⭐ 4.9 • 128 avaliações</p>
         <p className="mt-5 text-gray-700">Fornecedor premium para casamentos, aniversários e eventos corporativos.</p>
         <Link href="/meu-evento" className="mt-6 block rounded-2xl bg-reimGold py-4 text-center font-bold text-white">Salvar no Meu Evento</Link>
-        <Link href="/orcamentos" className="mt-3 block rounded-2xl bg-reimBlack py-4 text-center font-bold text-white">Solicitar orçamento</Link>
+       <Link href="/solicitar-orcamento" className="mt-3 block rounded-2xl bg-reimBlack py-4 text-center font-bold text-white">Solicitar orçamento</Link>
       </section>
     </main>
   );
