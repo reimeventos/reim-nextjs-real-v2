@@ -19,7 +19,7 @@ export default function SolicitarOrcamentoPage() {
             <label className="block text-sm font-semibold text-[#5b2c1c] mb-2">
               Tipo de Evento
             </label>
-            <select className="w-full rounded-xl border border-gray-200 px-4 py-3 text-sm outline-none">
+            <select className="w-full rounded-xl border border-gray-200 px-4 py-3 text-sm outline-none bg-white">
               <option>Casamento</option>
               <option>Aniversário</option>
               <option>Debutante</option>
@@ -35,7 +35,7 @@ export default function SolicitarOrcamentoPage() {
             </label>
             <input
               type="date"
-              className="w-full rounded-xl border border-gray-200 px-4 py-3 text-sm outline-none"
+              className="w-full rounded-xl border border-gray-200 px-4 py-3 text-sm outline-none bg-white"
             />
           </div>
 
@@ -45,7 +45,7 @@ export default function SolicitarOrcamentoPage() {
             </label>
             <input
               type="time"
-              className="w-full rounded-xl border border-gray-200 px-4 py-3 text-sm outline-none"
+              className="w-full rounded-xl border border-gray-200 px-4 py-3 text-sm outline-none bg-white"
             />
           </div>
 
@@ -55,11 +55,11 @@ export default function SolicitarOrcamentoPage() {
             </label>
             <input
               type="text"
-              placeholder="Ex: Espaço Bella Vista, Sítio, salão, igreja..."
-              className="w-full rounded-xl border border-gray-200 px-4 py-3 text-sm outline-none"
+              placeholder="Ex: Espaço Bella Vista, sítio, salão, igreja..."
+              className="w-full rounded-xl border border-gray-200 px-4 py-3 text-sm outline-none bg-white"
             />
             <p className="text-xs text-gray-500 mt-2">
-              O espaço ajuda o fornecedor a entender melhor o estilo e estrutura da festa.
+              O espaço ajuda o fornecedor a entender melhor o estilo e a estrutura da festa.
             </p>
           </div>
 
@@ -70,7 +70,7 @@ export default function SolicitarOrcamentoPage() {
             <input
               type="text"
               placeholder="Ex: Eunápolis"
-              className="w-full rounded-xl border border-gray-200 px-4 py-3 text-sm outline-none"
+              className="w-full rounded-xl border border-gray-200 px-4 py-3 text-sm outline-none bg-white"
             />
           </div>
 
@@ -81,7 +81,7 @@ export default function SolicitarOrcamentoPage() {
             <input
               type="number"
               placeholder="Ex: 150"
-              className="w-full rounded-xl border border-gray-200 px-4 py-3 text-sm outline-none"
+              className="w-full rounded-xl border border-gray-200 px-4 py-3 text-sm outline-none bg-white"
             />
           </div>
 
@@ -89,7 +89,7 @@ export default function SolicitarOrcamentoPage() {
             <label className="block text-sm font-semibold text-[#5b2c1c] mb-2">
               Serviço Desejado
             </label>
-            <select className="w-full rounded-xl border border-gray-200 px-4 py-3 text-sm outline-none">
+            <select className="w-full rounded-xl border border-gray-200 px-4 py-3 text-sm outline-none bg-white">
               <option>Buffet</option>
               <option>Decoração</option>
               <option>Fotografia</option>
@@ -109,7 +109,7 @@ export default function SolicitarOrcamentoPage() {
             <textarea
               rows={5}
               placeholder="Descreva detalhes importantes: estilo do evento, preferências, estrutura desejada, dúvidas..."
-              className="w-full rounded-xl border border-gray-200 px-4 py-3 text-sm outline-none resize-none"
+              className="w-full rounded-xl border border-gray-200 px-4 py-3 text-sm outline-none resize-none bg-white"
             />
           </div>
 
